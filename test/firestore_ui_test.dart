@@ -20,9 +20,9 @@ void main() {
     };
 
     setUp(() async {
-      FirebaseApp.channel.setMockMethodCallHandler(
-        (MethodCall methodCall) async {},
-      );
+//      FirebaseApp.channel.setMockMethodCallHandler(
+//        (MethodCall methodCall) async {},
+//      );
 
       app = await FirebaseApp.configure(
         name: 'testApp',
